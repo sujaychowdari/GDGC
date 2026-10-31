@@ -1,0 +1,22 @@
+# Dataset files (large files / competition data)
+network-intrusion-detection2-ml-challenge/
+*.zip
+
+# Python & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# CatBoost & Training artifacts
+catboost_info/
+
+# Environments & OS
+.venv/
+env/
+venv/
+ENV/
+.DS_Store
+Thumbs.db
+*.log
